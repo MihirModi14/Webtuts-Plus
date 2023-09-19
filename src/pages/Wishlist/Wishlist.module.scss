@@ -1,0 +1,14 @@
+.wishlist {
+  min-height: calc(100vh - 355px);
+
+  .products {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    margin: 2rem auto;
+  }
+
+  h1 {
+    text-align: center;
+  }
+}

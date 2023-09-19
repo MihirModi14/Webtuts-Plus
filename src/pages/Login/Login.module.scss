@@ -1,0 +1,33 @@
+@import "../../styles/abstracts/abstracts";
+
+.authContainer {
+  width: 500px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+
+  .toggleLink {
+    text-align: end;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    text-decoration: dashed;
+    color: $grayColor;
+
+    a {
+      color: $blueColor-3;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+.login {
+  h1 {
+    font-weight: 600;
+  }
+}

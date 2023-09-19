@@ -1,0 +1,21 @@
+@import "../../styles/abstracts/abstracts";
+
+.message {
+  text-align: center;
+  &__noData {
+    width: 100%;
+    font-size: 2rem;
+    margin: 2rem 1rem;
+  }
+
+  &__error {
+    color: $redColor;
+  }
+}
+
+.linearLoader {
+  position: fixed !important;
+  width: 100%;
+  top: 56px;
+  left: 0;
+}

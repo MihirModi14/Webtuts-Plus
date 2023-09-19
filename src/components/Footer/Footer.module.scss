@@ -1,0 +1,44 @@
+@import "../../../src/styles/abstracts/abstracts";
+
+.footer {
+  background-color: $primaryColor;
+  text-align: center;
+
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem 4rem 0 4rem;
+
+    ul {
+      text-align: left;
+      padding-right: 2rem;
+
+      li,
+      p {
+        display: block;
+        padding-bottom: 1rem;
+        line-height: 2rem;
+        font-size: 1.6rem;
+      }
+
+      li {
+        cursor: pointer;
+        font-weight: 400;
+
+        &:hover {
+          color: $blueColor;
+          text-decoration: underline;
+        }
+      }
+
+      p {
+        font-weight: bold;
+      }
+    }
+  }
+
+  .copyright {
+    font-size: 2rem;
+    padding: 4rem 0;
+  }
+}

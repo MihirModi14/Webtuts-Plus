@@ -1,0 +1,50 @@
+/******************************* Dynamic Media Query  ********************************/
+@mixin respond($breakPoint) {
+  @if $breakPoint == big-desktop {
+    @media (min-width: 1800px) {
+      // 112.5 em
+      @content;
+    }
+  }
+
+  @if $breakPoint == tab-land {
+    @media (min-width: 780px) and (max-width: 1024px) {
+      // 75 em
+      @content;
+    }
+  }
+
+  @if $breakPoint == regular-desktop {
+    @media (max-width: 1260px) {
+      // 75 em
+      @content;
+    }
+  }
+
+  @if $breakPoint == tab-port {
+    @media (min-width: 600px) and (max-width: 1024px) {
+      // 56.25 em
+      @content;
+    }
+  }
+  @if $breakPoint == small-laptop {
+    @media (min-width: 1500px) and (max-width: 2000px) {
+      // 56.25 em
+      @content;
+    }
+  }
+
+  @if $breakPoint == phone {
+    @media (max-width: 600px) {
+      // 37.5 em
+      @content;
+    }
+  }
+}
+
+@mixin fontValues($font-size, $font-weight, $line-height, $color) {
+  font-size: $font-size;
+  font-weight: $font-weight;
+  line-height: $line-height;
+  color: $color;
+}

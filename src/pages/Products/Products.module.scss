@@ -1,0 +1,14 @@
+.products {
+  min-height: calc(100vh - 355px);
+
+  .product {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    margin: 2rem auto;
+  }
+
+  .center {
+    text-align: center;
+  }
+}

@@ -1,0 +1,20 @@
+.cart {
+  min-height: calc(100vh - 353px);
+
+  h1 {
+    text-align: center;
+  }
+
+  .confirmOrder {
+    text-align: right;
+    margin-bottom: 2rem;
+
+    h4 {
+      margin-bottom: 1rem;
+    }
+  }
+}
+
+hr {
+  margin: 2.5rem 0;
+}

@@ -1,0 +1,21 @@
+@import "../../styles/abstracts/abstracts";
+
+.register {
+  margin-top: 10rem;
+
+  .toggleLink {
+    text-align: end;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    text-decoration: dashed;
+    color: $grayColor;
+    a {
+      color: $blueColor-3;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
